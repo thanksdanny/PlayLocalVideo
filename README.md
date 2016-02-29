@@ -1,1 +1,9 @@
 # PlayLocalVideo
+难点在于AVFoundationd的运用
+熟悉了tableview，以及在数组中取数据
+
+纠结了一个下午的问题，首先是没有添加到资源的问题导致视频为空
+其次AVPlayerViewController一直为空一直让我很疑惑
+后来不创建属性，直接在代码中alloc终于成功不为空了
+
+done
