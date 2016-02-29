@@ -15,6 +15,7 @@
 		FD09716D1C833B7000FDB89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD09716B1C833B7000FDB89A /* LaunchScreen.storyboard */; };
 		FD0971761C8349D100FDB89A /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0971751C8349D100FDB89A /* VideoCell.m */; };
 		FD09717A1C844B6D00FDB89A /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD0971771C83E62700FDB89A /* emoji zone.mp4 */; };
+		FD09717C1C8496E600FDB89A /* videoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD09717B1C8496E600FDB89A /* videoList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FD0971741C8349D100FDB89A /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		FD0971751C8349D100FDB89A /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		FD0971771C83E62700FDB89A /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		FD09717B1C8496E600FDB89A /* videoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videoList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				FD0971741C8349D100FDB89A /* VideoCell.h */,
 				FD0971751C8349D100FDB89A /* VideoCell.m */,
 				FD0971661C833B7000FDB89A /* Main.storyboard */,
+				FD09717B1C8496E600FDB89A /* videoList.plist */,
 				FD0971691C833B7000FDB89A /* Assets.xcassets */,
 				FD09716B1C833B7000FDB89A /* LaunchScreen.storyboard */,
 				FD09716E1C833B7000FDB89A /* Info.plist */,
@@ -155,6 +158,7 @@
 				FD09717A1C844B6D00FDB89A /* emoji zone.mp4 in Resources */,
 				FD09716D1C833B7000FDB89A /* LaunchScreen.storyboard in Resources */,
 				FD09716A1C833B7000FDB89A /* Assets.xcassets in Resources */,
+				FD09717C1C8496E600FDB89A /* videoList.plist in Resources */,
 				FD0971681C833B7000FDB89A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,36 +13,20 @@
 
 
 @interface ViewController () <UITableViewDataSource>
-//{
-//    NSString *docPath;
-//    //    docPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-//
-//}
+{
+    NSArray *videoList;
+}
 @property (weak, nonatomic) IBOutlet UITableView *videoTableView;
-//@property (nonatomic, strong) AVPlayerViewController *playViewController;
 @property (nonatomic, strong) AVPlayer *playerView;
+
 
 @end
 
 @implementation ViewController
 
-//- (AVPlayer *)playerView {
-//    if (!_playerView) {
-//        AVPlayerItem *playerItem = [self getPlayItem];
-//        _playerView = [[AVPlayer alloc] initWithPlayerItem:playerItem];
-//    }
-//    return _playerView;
-//}
-//
-//- (AVPlayerItem *)getPlayItem {
-//    NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-//    NSString *savePath = [cachePath stringByAppendingPathComponent:@"MOVIEPATH"]; // 示例没有加 @“”
-//    NSURL *saverUrl = [NSURL fileURLWithPath:savePath];
-//    
-//    AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithURL:saverUrl];
-//    
-//    return playerItem;
-//}
+- (NSArray *)data {
+    return [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"videoList" ofType:@"plist"]];
+}
 
 - (IBAction)playBtn {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"emoji zone" ofType:@"mp4"];
@@ -59,14 +43,14 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return [self.data count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     VideoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"videoCell" forIndexPath:indexPath];
-    cell.videoImg.image = [UIImage imageNamed:@"videoScreenshot01"];
-    cell.videoTitleLabel.text = @"这是第一个标题";
-    cell.videoSourceLabel.text = @"source";
+    cell.videoImg.image = [UIImage imageNamed:[[self data][indexPath.row] objectForKey:@"image"]];
+    cell.videoTitleLabel.text = [NSString stringWithFormat:@"%@", [[self data][indexPath.row] objectForKey:@"title"]];
+    cell.videoSourceLabel.text = [NSString stringWithFormat:@"%@", [[self data][indexPath.row] objectForKey:@"source"]];
     return cell;
 }
 

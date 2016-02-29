@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot06</string>
+		<key>title</key>
+		<string>Lijiang Lugu Lake</string>
+		<key>source</key>
+		<string>Allen - 20:30</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot05</string>
+		<key>title</key>
+		<string>Facebook HQ</string>
+		<key>source</key>
+		<string>Facebook - 10:20</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot04</string>
+		<key>title</key>
+		<string>Adventure Time</string>
+		<key>source</key>
+		<string>Youtube - 02:39</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot03</string>
+		<key>title</key>
+		<string>Seals Documentary</string>
+		<key>source</key>
+		<string>Vine - 00:06</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot02</string>
+		<key>title</key>
+		<string>Emoji Among Us</string>
+		<key>source</key>
+		<string>Vimeo - 3:34</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>videoScreenshot01</string>
+		<key>title</key>
+		<string>Introduce 3DS Mario</string>
+		<key>source</key>
+		<string>Youtube - 06:32</string>
+	</dict>
+</array>
+</plist>
