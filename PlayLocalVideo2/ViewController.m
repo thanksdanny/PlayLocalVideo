@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "VideoCell.h"
+#import <AVFoundation/AVFoundation.h>
+
 
 @interface ViewController () <UITableViewDataSource>
 
@@ -17,11 +19,13 @@
 
 @implementation ViewController
 - (IBAction)playBtn {
+    
+    
     NSLog(@"%s", __func__);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

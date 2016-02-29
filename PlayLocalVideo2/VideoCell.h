@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UIImageView *videoImg;
 @property (weak, nonatomic) IBOutlet UILabel *videoTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *videoSourceLabel;
+
 @end

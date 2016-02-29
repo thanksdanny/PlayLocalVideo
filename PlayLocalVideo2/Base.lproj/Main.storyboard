@@ -53,7 +53,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="videoImg" destination="KCT-b8-6fV" id="k0C-xL-q2G"/>
+                                            <outlet property="videoImg" destination="KCT-b8-6fV" id="qHg-7W-fOI"/>
                                             <outlet property="videoSourceLabel" destination="1SP-CJ-rkn" id="yd5-e6-ZGp"/>
                                             <outlet property="videoTitleLabel" destination="yJH-sr-TyY" id="hsJ-zk-QlO"/>
                                         </connections>
@@ -65,6 +65,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Watch Later" id="dcL-Gw-tyH"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="videoTableView" destination="a3r-Kr-4I1" id="MYr-gH-aFz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -29,6 +29,7 @@
 		FD09716E1C833B7000FDB89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0971741C8349D100FDB89A /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		FD0971751C8349D100FDB89A /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		FD0971771C83E62700FDB89A /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 				FD0971691C833B7000FDB89A /* Assets.xcassets */,
 				FD09716B1C833B7000FDB89A /* LaunchScreen.storyboard */,
 				FD09716E1C833B7000FDB89A /* Info.plist */,
+				FD0971781C83E62E00FDB89A /* Video */,
 				FD09715D1C833B7000FDB89A /* Supporting Files */,
 			);
 			path = PlayLocalVideo2;
@@ -82,6 +84,14 @@
 				FD09715E1C833B7000FDB89A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD0971781C83E62E00FDB89A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FD0971771C83E62700FDB89A /* emoji zone.mp4 */,
+			);
+			name = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
