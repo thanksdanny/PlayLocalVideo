@@ -14,6 +14,7 @@
 		FD09716A1C833B7000FDB89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0971691C833B7000FDB89A /* Assets.xcassets */; };
 		FD09716D1C833B7000FDB89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD09716B1C833B7000FDB89A /* LaunchScreen.storyboard */; };
 		FD0971761C8349D100FDB89A /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0971751C8349D100FDB89A /* VideoCell.m */; };
+		FD09717A1C844B6D00FDB89A /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD0971771C83E62700FDB89A /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD09717A1C844B6D00FDB89A /* emoji zone.mp4 in Resources */,
 				FD09716D1C833B7000FDB89A /* LaunchScreen.storyboard in Resources */,
 				FD09716A1C833B7000FDB89A /* Assets.xcassets in Resources */,
 				FD0971681C833B7000FDB89A /* Main.storyboard in Resources */,
